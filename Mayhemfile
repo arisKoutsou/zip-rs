@@ -1,0 +1,14 @@
+version: '1.16'
+duration: 90
+project: arisKoutsou/zip-rs
+target: extract
+advanced_triage: true
+tasks:
+  - name: exploitability_factors
+  - name: regression_testing
+  - name: behavior_testing
+  - name: coverage_analysis
+cmds:
+  - cmd: /workdir/target/debug/examples/extract @@
+corpus:
+  - file://mayhem/corpus
