@@ -45,7 +45,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Start analysis
-        uses: ethan42/mcode-action@44343bdb4c774508c5b032f1cb24c805ccb5167e
+        uses: ForAllSecure/mcode-action@v1.0.0
         with:
           mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
           args: --image ${{ steps.meta.outputs.tags }} --corpus file://mayhem/corpus
