@@ -1,5 +1,5 @@
 FROM rust
 WORKDIR /workdir
-COPY . .
+COPY . /workdir/zip-rs/
 RUN cargo build
 RUN cargo build --example extract
