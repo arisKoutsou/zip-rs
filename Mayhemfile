@@ -1,4 +1,4 @@
-version: '1.16'
+version: '2.0'
 duration: 90
 project: arisKoutsou/zip-rs
 target: extract
