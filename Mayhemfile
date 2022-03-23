@@ -2,7 +2,6 @@ version: '2.0'
 duration: 90
 project: arisKoutsou/zip-rs
 target: extract
-advanced_triage: true
 tasks:
   - name: exploitability_factors
   - name: regression_testing
