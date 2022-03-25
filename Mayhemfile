@@ -9,5 +9,3 @@ tasks:
   - name: coverage_analysis
 cmds:
   - cmd: /workdir/target/debug/examples/extract @@
-corpus:
-  - file://mayhem/corpus
